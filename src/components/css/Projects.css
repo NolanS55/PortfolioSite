@@ -1,0 +1,158 @@
+.project {
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(29, 31, 29);
+
+}
+
+.carousel {
+    position: relative;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 100%;
+    width: 100%;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-hidden {
+    display: none;
+}
+
+.text {
+    display :inline-block
+}
+
+.title {
+    margin: 0;
+    font-size: 150px;
+    font-family: "JetBrains Mono", monospace;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.titleProj {
+    margin: 0;
+    font-size: 100px;
+    font-family: "JetBrains Mono", monospace;
+    color: orange;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    transition:         color 1s;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.arrow {
+    position:absolute;
+    width: 5rem;
+    height: 5rem;
+    color:white;
+}
+
+.arrowLeft {
+    left: 1rem;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.arrowLeft:hover {
+    color: orange;
+}
+
+.arrowRight {
+    right: 1rem;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.arrowRight:hover {
+    color: orange;
+}
+
+.indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.indicator {
+    background-color: orange;
+    height: 1rem;
+    width: 5rem;
+    border: none;
+    outline: none;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.indicatorInactive {
+    background-color: white;
+}
+
+.projects {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 15vw 15vw 15vw;
+    justify-content: center;
+}
+
+.view {
+    position: relative;
+    width: 15vw;
+    height : 25vw;
+    margin: 2.5%;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.projImg {
+    height: 7.5vw;
+    width: 7.5vw;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.projName {
+    font-size: 1.5;
+    font-family: "JetBrains Mono", monospace;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.projSum {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1vw;
+}
+.divLink {
+    position: absolute;
+    bottom: 2rem;
+    left: 25%;
+    padding: 20px;
+    background-color: orange;
+}
+
+.projLink {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5vw;
+    
+}
+

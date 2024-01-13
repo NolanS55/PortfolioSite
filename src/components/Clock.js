@@ -44,7 +44,7 @@ const Clock = () => {
     }
 
     if(seconds <= 0) {
-        minutes--
+        minutes-- 
         seconds+= 60
     }
 

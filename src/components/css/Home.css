@@ -5,7 +5,7 @@
 .info {
     margin-top: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../../public/GALAXY.jpg");
-    min-height: 30vw;
+    height: 50vh;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
@@ -32,7 +32,7 @@
     margin: 2.5vh;
     font-size: 5vh;
     font-family: "JetBrains Mono", monospace;
-    color: orange;
+    color: white;
     
 }
 figure {
@@ -40,7 +40,7 @@ figure {
 }
 
 .connectCaption {
-    color: white;
+    color: orange;
     font-size: 2.5vh;
     font-family: "JetBrains Mono", monospace;
 }

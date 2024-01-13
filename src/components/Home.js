@@ -7,6 +7,7 @@ const Home = () => {
             <div className="text">
                 <h1 className="title">Nolan Smith</h1>
                 <Clock></Clock>
+                <h1 style={{color : 'orange', paddingTop : '5px'}}>and am looking for a job in software development.</h1>
             </div>     
         </section>
         <section className="connect">
