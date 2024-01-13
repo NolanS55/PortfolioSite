@@ -1,0 +1,14 @@
+
+
+.navbar {
+    padding: .5vw;
+    margin-bottom: 0;
+}
+
+.link {
+    font-size: 2vw;
+    padding: 2vw;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: "JetBrains Mono", monospace;
+}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './css/Clock.css'
 
 const Clock = () => {
     let date  = new Date().toLocaleDateString()
@@ -32,17 +33,17 @@ const Clock = () => {
         }
     }
 
-    if(hour < 0) {
+    if(hour <= 0) {
         day--
         hour += 24
     }
 
-    if(minutes < 0) {
+    if(minutes <= 0) {
         hour--
         minutes += 60
     }
 
-    if(seconds < 0) {
+    if(seconds <= 0) {
         minutes--
         seconds+= 60
     }

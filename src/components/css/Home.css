@@ -1,0 +1,52 @@
+.home {
+    background-color: rgb(29, 31, 29);
+    height: 93.25vh;
+}
+.info {
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../../public/GALAXY.jpg");
+    min-height: 30vw;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 5%;
+}
+
+.text {
+    display: inline-block;
+}
+
+.title {
+    margin: 0;
+    font-size: 6vw;
+    font-family: "JetBrains Mono", monospace;
+    color: orange;
+}
+
+.connectTitle {
+    margin: 2.5vh;
+    font-size: 5vh;
+    font-family: "JetBrains Mono", monospace;
+    color: orange;
+    
+}
+figure {
+    display: inline-block;
+}
+
+.connectCaption {
+    color: white;
+    font-size: 2.5vh;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.connections img {
+    height: 15vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
