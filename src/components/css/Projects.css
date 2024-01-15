@@ -143,7 +143,7 @@ a:hover {
 }
 .divLink {
     position: absolute;
-    bottom: 2rem;
+    bottom: 2vw;
     left: 25%;
     padding: 20px;
     background-color: orange;

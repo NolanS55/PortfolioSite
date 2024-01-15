@@ -17,9 +17,9 @@ const Projects = () => {
   const [ref, hovering] = useHover();
 
   const [slide, setSlide] = useState(0)
-  const data = [{name : 'Chess', description : 'A two player chess game made in React', demo : "https://github.com/NolanS55/React-Chess", source : "https://github.com/NolanS55/React-Chess", src : chess}, 
+  const data = [{name : 'Chess', description : 'A two player chess game made in React', demo : "https://vercel.com/nolans55/nolan-chess", source : "https://github.com/NolanS55/React-Chess", src : chess}, 
   {name : 'TicketVortex', description : 'A website made for selling and buying tickets to concerts', demo : "https://github.com/agam-singh-talwar/Ticket-Vortex", source : "https://github.com/agam-singh-talwar/Ticket-Vortex", src : ticket},
-  {name : 'Sudoku', description : 'Sudoku solver and game made in React', demo : "https://github.com/NolanS55/ReactSudoku", source : "https://github.com/NolanS55/ReactSudoku", src : sudoku}]
+  {name : 'Sudoku', description : 'Sudoku solver and game made in React', demo : "https://react-sudoku-pi.vercel.app/", source : "https://github.com/NolanS55/ReactSudoku", src : sudoku}]
 
   const projects = [{name : 'chess', summary : 'A two player chess game made in React', description : "A fully working chess game playable in the browser between two people. This was made all in React. It features all the rules of chess like, en passant, checking, mating and castling. I plan to add clocks and custom game settings later in the year.", source : "https://github.com/NolanS55/React-Chess", src : pawn},
 {name : "TicketVortex", summary : "A website made for selling and buying tickets to concerts using Flask", description : "This website was made in a group and I was responsible for coding CRUD operations and connecting the app with a database, as well as database structure. We used Mongodb paired with Flask in order to allow users to buy tickets to concerts and sell their tickets.", source : "https://github.com/agam-singh-talwar/Ticket-Vortex", src : vortex},
