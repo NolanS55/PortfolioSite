@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
         <section className="info">
             <div className="text">
-                <h1 className="title">Nolan Smith</h1>
+                <h1 className="titles">Nolan Smith</h1>
                 <Clock></Clock>
                 <h1 style={{color : 'orange', paddingTop : '5px'}}>and am looking for a job in software development.</h1>
             </div>     

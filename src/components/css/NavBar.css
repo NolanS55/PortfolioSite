@@ -12,3 +12,33 @@
     color:aliceblue;
     font-family: "JetBrains Mono", monospace;
 }
+
+@media screen and (max-width: 1500px) {
+    .navbar {
+        padding: .5vw;
+        margin-bottom: 0;
+    }
+    
+    .link {
+        font-size: 4vw;
+        padding: 4vw;
+        text-decoration: none;
+        color:aliceblue;
+        font-family: "JetBrains Mono", monospace;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        padding: .5vw;
+        margin-bottom: 0;
+    }
+    
+    .link {
+        font-size: 8vw;
+        padding: 8vw;
+        text-decoration: none;
+        color:aliceblue;
+        font-family: "JetBrains Mono", monospace;
+    }
+}

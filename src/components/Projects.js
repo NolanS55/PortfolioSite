@@ -17,7 +17,7 @@ const Projects = () => {
   const [ref, hovering] = useHover();
 
   const [slide, setSlide] = useState(0)
-  const data = [{name : 'Chess', description : 'A two player chess game made in React', demo : "https://vercel.com/nolans55/nolan-chess", source : "https://github.com/NolanS55/React-Chess", src : chess}, 
+  const data = [{name : 'Chess', description : 'A two player chess game made in React', demo : "https://nolan-chess.vercel.app/", source : "https://github.com/NolanS55/React-Chess", src : chess}, 
   {name : 'TicketVortex', description : 'A website made for selling and buying tickets to concerts', demo : "https://github.com/agam-singh-talwar/Ticket-Vortex", source : "https://github.com/agam-singh-talwar/Ticket-Vortex", src : ticket},
   {name : 'Sudoku', description : 'Sudoku solver and game made in React', demo : "https://react-sudoku-pi.vercel.app/", source : "https://github.com/NolanS55/ReactSudoku", src : sudoku}]
 
@@ -62,8 +62,8 @@ const Projects = () => {
                     <div className={slide === index ? "item" : "item item-hidden"} style={{backgroundImage : `linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(${item.src})`}} key={index}>
                         <div className='text'>
                             <h1 className='title'>{item.name}</h1>
-                            <h1>{item.description}</h1>
-                            <h1 style={{color : "orange"}}><a href={item.demo} target="_blank" rel="noreferrer">Demo the code</a>&nbsp; &nbsp;<a href={item.source} target="_blank" rel="noreferrer">View the code</a> </h1>
+                            <h1 className='desc'>{item.description}</h1>
+                            <h1 className='desc' style={{color : "orange"}}><a href={item.demo} target="_blank" rel="noreferrer">Demo the code</a>&nbsp; &nbsp;<a href={item.source} target="_blank" rel="noreferrer">View the code</a> </h1>
                         </div>
                     </div>
                 )
